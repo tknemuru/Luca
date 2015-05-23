@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReversiCommonDataSet" targetNamespace="http://tempuri.org/ReversiCommonDataSet.xsd" xmlns:mstns="http://tempuri.org/ReversiCommonDataSet.xsd" xmlns="http://tempuri.org/ReversiCommonDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReversiCommonDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReversiCommonDataSet" msprop:Generator_UserDSName="ReversiCommonDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ST_SCORE_INDEX" msprop:Generator_TableClassName="ST_SCORE_INDEXDataTable" msprop:Generator_TableVarName="tableST_SCORE_INDEX" msprop:Generator_TablePropName="ST_SCORE_INDEX" msprop:Generator_RowDeletingName="ST_SCORE_INDEXRowDeleting" msprop:Generator_RowChangingName="ST_SCORE_INDEXRowChanging" msprop:Generator_RowEvHandlerName="ST_SCORE_INDEXRowChangeEventHandler" msprop:Generator_RowDeletedName="ST_SCORE_INDEXRowDeleted" msprop:Generator_UserTableName="ST_SCORE_INDEX" msprop:Generator_RowChangedName="ST_SCORE_INDEXRowChanged" msprop:Generator_RowEvArgName="ST_SCORE_INDEXRowChangeEvent" msprop:Generator_RowClassName="ST_SCORE_INDEXRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INDEX_NO" msprop:Generator_ColumnVarNameInTable="columnINDEX_NO" msprop:Generator_ColumnPropNameInRow="INDEX_NO" msprop:Generator_ColumnPropNameInTable="INDEX_NOColumn" msprop:Generator_UserColumnName="INDEX_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="INDEX_NAME" msprop:Generator_ColumnVarNameInTable="columnINDEX_NAME" msprop:Generator_ColumnPropNameInRow="INDEX_NAME" msprop:Generator_ColumnPropNameInTable="INDEX_NAMEColumn" msprop:Generator_UserColumnName="INDEX_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="STAGE" msprop:Generator_ColumnVarNameInTable="columnSTAGE" msprop:Generator_ColumnPropNameInRow="STAGE" msprop:Generator_ColumnPropNameInTable="STAGEColumn" msprop:Generator_UserColumnName="STAGE" type="xs:int" minOccurs="0" />
+              <xs:element name="SCORE" msprop:Generator_ColumnVarNameInTable="columnSCORE" msprop:Generator_ColumnPropNameInRow="SCORE" msprop:Generator_ColumnPropNameInTable="SCOREColumn" msprop:Generator_UserColumnName="SCORE" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AR_DEVELOP_KIFU_INDEX" msprop:Generator_TableClassName="AR_DEVELOP_KIFU_INDEXDataTable" msprop:Generator_TableVarName="tableAR_DEVELOP_KIFU_INDEX" msprop:Generator_TablePropName="AR_DEVELOP_KIFU_INDEX" msprop:Generator_RowDeletingName="AR_DEVELOP_KIFU_INDEXRowDeleting" msprop:Generator_RowChangingName="AR_DEVELOP_KIFU_INDEXRowChanging" msprop:Generator_RowEvHandlerName="AR_DEVELOP_KIFU_INDEXRowChangeEventHandler" msprop:Generator_RowDeletedName="AR_DEVELOP_KIFU_INDEXRowDeleted" msprop:Generator_UserTableName="AR_DEVELOP_KIFU_INDEX" msprop:Generator_RowChangedName="AR_DEVELOP_KIFU_INDEXRowChanged" msprop:Generator_RowEvArgName="AR_DEVELOP_KIFU_INDEXRowChangeEvent" msprop:Generator_RowClassName="AR_DEVELOP_KIFU_INDEXRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="INDEX_ID" msprop:Generator_ColumnVarNameInTable="columnINDEX_ID" msprop:Generator_ColumnPropNameInRow="INDEX_ID" msprop:Generator_ColumnPropNameInTable="INDEX_IDColumn" msprop:Generator_UserColumnName="INDEX_ID" type="xs:int" default="0" />
+              <xs:element name="INDEX_NAME" msprop:Generator_ColumnVarNameInTable="columnINDEX_NAME" msprop:Generator_ColumnPropNameInRow="INDEX_NAME" msprop:Generator_ColumnPropNameInTable="INDEX_NAMEColumn" msprop:Generator_UserColumnName="INDEX_NAME" type="xs:string" />
+              <xs:element name="INDEX_NO" msprop:Generator_ColumnVarNameInTable="columnINDEX_NO" msprop:Generator_ColumnPropNameInRow="INDEX_NO" msprop:Generator_ColumnPropNameInTable="INDEX_NOColumn" msprop:Generator_UserColumnName="INDEX_NO" type="xs:int" default="0" />
+              <xs:element name="STAGE" msprop:Generator_ColumnVarNameInTable="columnSTAGE" msprop:Generator_ColumnPropNameInRow="STAGE" msprop:Generator_ColumnPropNameInTable="STAGEColumn" msprop:Generator_UserColumnName="STAGE" type="xs:int" default="0" />
+              <xs:element name="NORMALIZE_VALUE" msprop:Generator_ColumnVarNameInTable="columnNORMALIZE_VALUE" msprop:Generator_ColumnPropNameInRow="NORMALIZE_VALUE" msprop:Generator_ColumnPropNameInTable="NORMALIZE_VALUEColumn" msprop:Generator_UserColumnName="NORMALIZE_VALUE" type="xs:int" default="0" />
+              <xs:element name="BLACK_SCORE" msprop:Generator_ColumnVarNameInTable="columnBLACK_SCORE" msprop:Generator_ColumnPropNameInRow="BLACK_SCORE" msprop:Generator_ColumnPropNameInTable="BLACK_SCOREColumn" msprop:Generator_UserColumnName="BLACK_SCORE" type="xs:int" default="0" />
+              <xs:element name="PARITY" msprop:Generator_ColumnVarNameInTable="columnPARITY" msprop:Generator_ColumnPropNameInRow="PARITY" msprop:Generator_ColumnPropNameInTable="PARITYColumn" msprop:Generator_UserColumnName="PARITY" type="xs:int" default="0" />
+              <xs:element name="BLACK_MOBILITY" msprop:Generator_ColumnVarNameInTable="columnBLACK_MOBILITY" msprop:Generator_ColumnPropNameInRow="BLACK_MOBILITY" msprop:Generator_ColumnPropNameInTable="BLACK_MOBILITYColumn" msprop:Generator_UserColumnName="BLACK_MOBILITY" type="xs:int" default="0" />
+              <xs:element name="WHITE_MOBILITY" msprop:Generator_ColumnVarNameInTable="columnWHITE_MOBILITY" msprop:Generator_ColumnPropNameInRow="WHITE_MOBILITY" msprop:Generator_ColumnPropNameInTable="WHITE_MOBILITYColumn" msprop:Generator_UserColumnName="WHITE_MOBILITY" type="xs:int" default="0" />
+              <xs:element name="DISCRIMINATION" msprop:Generator_ColumnVarNameInTable="columnDISCRIMINATION" msprop:Generator_ColumnPropNameInRow="DISCRIMINATION" msprop:Generator_ColumnPropNameInTable="DISCRIMINATIONColumn" msprop:Generator_UserColumnName="DISCRIMINATION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
